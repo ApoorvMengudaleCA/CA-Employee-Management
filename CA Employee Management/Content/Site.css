@@ -1,0 +1,88 @@
+﻿.navbar-default {
+    background-color: #282828;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #d9d9d9;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #d9d9d9;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #aeadad;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #aeadad;
+    background-color: transparent;
+}
+
+a:hover, a:focus {
+    color: #3c3c3c;
+    text-decoration: underline;
+}
+
+a {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+.btn {
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 1px 1px 4px rgba(85, 85, 85, 0.4);
+    transition: all 0.4s;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #3c3c3c;
+    border-color: transparent;
+}
+
+.btn-default:hover, .btn-default:active:hover {
+    background-color: #d9d7d7;
+    color: #444;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 3;
+    color: #ffffff;
+    cursor: default;
+    background-color: #3c3c3c;
+    border-color: #3c3c3c;
+}
+
+.btn-default:hover, .btn-default:active:hover {
+    background-color: #d9d7d7;
+    color: #444;
+}
