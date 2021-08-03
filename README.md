@@ -5,7 +5,7 @@ A web application for management of employees.
 Screenshots:
 
 Dashboard:
-![](screenshots/dashboard.png)
+❮img src="screenshot/dashboard.png" ❯
 
 Register:
 ![](screenshots/registration.png)
