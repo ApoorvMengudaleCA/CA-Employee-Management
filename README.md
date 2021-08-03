@@ -4,7 +4,7 @@ A web application for management of employees.
 
 Screenshots:
 
-Dashboard:
+
 ❮img src="screenshots/dashboard.png" ❯
 
 Register:
